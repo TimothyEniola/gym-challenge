@@ -347,17 +347,12 @@ animation: move-rtl 9000ms linear infinite;
 width: 1200px;
 height: 200px;
 position: absolute;
+padding-top: 300px;
 }
 .client img{
     width: 100%;
     height: 100%;
 }
-/* .splide{
-    position: relative;
-    background: #524FF5;
-    display: flex;
-    justify-content: center;
-} */
 .person{
     position: relative;
     display: flex;
@@ -367,9 +362,13 @@ position: absolute;
     height: 341px;
     padding: 36px 36px 23px 50px;
 } 
+.passport{
+    padding-top: 50px;
+}
 .pptext{
     /* display: inline-block; */
     width: 50%;
+    padding-top: 50px;
 }
 .nattasha h3{
  font-family: inter;
@@ -400,5 +399,566 @@ padding-top: 12px;
 }
 .slider{
     width: 100%;
+    margin-bottom: 300px;
+}
+.netflix{
+    background-color: #524FF5;
+    padding-bottom:100px;
+}
+.netfliximage{
+    position: relative;
+    top: 850px;
+    width: 700px;
+    animation: move-rtl 9000ms linear infinite;
+}
+.netfliximage img{
+    width: 100%;
+    height: 100%;
+}
+.base{
+    /* background-color: #524FF5; */
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+.amenities{
+    display: block;
+}
+.amenities h5{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.amenities h2{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.amenities p{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.net{
+    width: 390px;
+}
+.net img{
+    width: 100%;
+}
+.marker{
+background-color: #1B2129;
+display: flex;
+width: 150px;
+height: 30px;
+justify-content: center;
+gap: 10px;
+margin-bottom: 10px;
+}
+.marker button{
+background-color: #1B2129;
+width: 60%;
+border: none;
+color: #FFFFFF;
+font-family: lato;
+font-size: 14px;
+font-weight: 500;
+}
+.hymn{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+.hymn img{
+    width: 100%;
+    height: 100%;
+}
+
+.markeri{
+    background-color: #1B2129;
+    display: flex;
+    width: 240px;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+    .markeri button{
+    background-color: #1B2129;
+    /* width: 0%; */
+    border: none;
+    color: #FFFFFF;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 55px;
+    }
+    .hymni{
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .hymni img{
+        width: 100%;
+        height: 100%;
+    }
     
+.markerin{
+    background-color: #1B2129;
+    display: flex;
+    width: 270px;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+    .markerin button{
+    background-color: #1B2129;
+    /* width: 0%; */
+    border: none;
+    color: #FFFFFF;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 55px;
+    }
+    .hymnin{
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .hymnin img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+.markering{
+    background-color: #1B2129;
+    display: flex;
+    width: 290px;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+    .markering button{
+    background-color: #1B2129;
+    /* width: 0%; */
+    border: none;
+    color: #FFFFFF;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 55px;
+    }
+    .hymning{
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .hymning img{
+        width: 100%;
+        height: 100%;
+    }
+    
+.markerings{
+    background-color: #1B2129;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    }
+    .markerings button{
+    background-color: #1B2129;
+    /* width: 0%; */
+    border: none;
+    color: #FFFFFF;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 55px;
+    }
+    .hymnings{
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .hymnings img{
+        width: 100%;
+        height: 100%;
+    }
+.butmark{
+    border-top: 1px solid #FFFFFF;
+    /* border-bottom: 1px solid #FFFFFF; */
+}
+.mark p{
+    font-family:lato ;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.mark{
+    border-bottom: 1px solid #FFFFFF;
+    padding: 25px 0px;
+}
+.plans{
+    margin-top: 60px;
+}
+.plana{
+    position: absolute;
+    left: 450px;
+    animation: move-rtl 9000ms linear infinite;
+}
+.planstext h5{
+    font-family:inter ;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #524FF5;
+}
+
+.planstext h2{
+    font-family:inter ;
+    font-weight: 700;
+    font-size: 45px;
+    color: #1B2129;
+}
+.planstext{
+    padding-top: 150px;
+    position: relative;
+    z-index: 10px;
+    text-align: center;
+}
+.plancard1{
+    background-color: #F9F9F9;
+    width: 330px;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.plancard2{
+    background-color: #F9F9F9;
+    width: 330px;
+    height: 720px;
+    margin-top: 50px;
+}
+.basic{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.basicimage{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+.basicimage img{
+    width: 100%;
+    height: 100%;
+}
+.basic h3{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.month{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 30px;
+    width: 200px;
+    margin-left: 33px;
+}
+.month h3{
+    padding-left: 24px;
+    padding-bottom: 10px;
+    font-family: inter;
+    font-size:25px ;
+    font-weight: 500;
+}
+.month button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: lato;
+    font-weight: 700;
+    font-size: 15px;
+}
+.month button:hover{
+    background-color: #A1F65E;
+    color: #FFFFFF;
+}
+.month .active{
+    background-color: #A1F65E;
+    color: #FFFFFF;
+}
+.day{
+    padding-top: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.day .active{
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    color: #1B2129;
+    font-family: lato;
+    font-size: 17px;
+    font-weight: 500;
+}
+.day .active:hover{
+    border: none;
+    color: #FFFFFF;
+}
+.day p{
+color: #6A6A6A;
+font-size: 18px;
+font-family: lato;
+}
+
+.day span{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: lato;
+    }
+.day h6{
+    color: #524FF5;
+    font-size: 20px;
+    font-family: lato;
+}
+.day button{
+    width: 150px;
+    height: 45px;
+    background-color: #1B2129;
+    border: none;
+    color: #FFFFFF;
+    font-family: lato;
+    font-style: 20px;
+    margin:30px;
+}
+.day button:hover{
+background-color: #524FF5;
+}
+.plancard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.spec{
+    display: flex;
+    justify-content: center;
+}
+.spec h3{
+    margin-left: 150px;
+    font-family: lato;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 110px;
+    position: relative;
+    z-index: 10px;
+}
+.blogimage{
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    /* animation: move-rtl 9000ms linear infinite; */
+}
+.blogimage img{
+    width: 100%;
+}
+.readbagtext {
+margin-left: 330px;
+width: 630px;
+/* background-color: #F9F9F9; */
+padding-left: 50px;
+padding-bottom: 40px;
+}
+
+#bh{
+    display: none;
+}
+#bh:checked ~ .bontent{
+display: block;
+}
+#bh:checked ~ label{
+    display: none;
+}
+.manifest label{
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+}
+
+.manifests label{
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+}
+.bontent{
+    display: none;
+}
+
+
+
+#br{
+    display: none;
+}
+#br:checked ~ .ontent{
+display: block;
+}
+#br:checked ~ label{
+    display: none;
+}
+.manifest label{
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+}
+.manifest label:hover{
+    background-color: #524FF5;
+    color: #FFFFFF;
+    border: none;
+}
+.manifests label{
+    background-color: #A1F65E;
+    border: none;
+}
+.ontent{
+    display: none;
+}
+
+#bc{
+    display: none;
+}
+#bc:checked ~ .ntent{
+display: block;
+}
+#bc:checked ~ label{
+    display: none;
+}
+.manifest label{
+    background-color: #FFFFFF;
+    border: 1px solid #BABABA;
+}
+.ntent{
+    display: none;
+}
+.fitness{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.fitness h6{
+font-family: inter;
+font-size:20px ;
+font-weight: 500;
+color: #524FF5;
+padding-top: 10px;
+}
+.manifests h6{
+    color: #FFFFFF;
+}
+.fitness button{
+    width: 150px;
+    height: 40px;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B2129;
+    background-color: #FFFFFF;
+    border: none;
+}
+.fitness button:hover{
+    background-color: #524FF5;
+    color: #FFFFFF;
+}
+.manifest h3{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 30px;
+    color: #1B2129;
+}
+
+.manifests h3{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.manifest p{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1B2129;
+    padding-top: 20px;
+    color: #6A6A6A;
+    line-height: 30px;
+}
+
+.manifests p{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.manifest{
+    background-color: #F9F9F9;
+    width: 650px;
+    margin-bottom: 50px;
+    padding-left:70px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.manifests{
+    background-image: url(../../assets/gyman.png);
+    width: 650px;
+    margin-bottom: 50px;
+    padding-left:70px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.manifest label{
+    font-family: lato;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    color: #1B2129;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.manifests label{
+    font-family: lato;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    color: #1B2129;
+    text-align: center;
+    padding-top: 15px;
+}
+.manifests label:hover{
+    color: #FFFFFF;
+}
+.mane{
+    margin-left: 280px;
+    margin-bottom: 100px;
 }

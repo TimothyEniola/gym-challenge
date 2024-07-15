@@ -25,6 +25,7 @@
 }
 .readmore{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 48px;
     margin-top: 40px;
@@ -41,6 +42,7 @@
 .content{
     display: none;
 }
+
 label {
     display: inline-block;
     cursor: pointer;

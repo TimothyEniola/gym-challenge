@@ -1,0 +1,119 @@
+.cardimage{
+    width: 330px;
+    height: 550px;
+    background-color: #1B2129;
+}
+.cardtext{
+    text-align: center;
+}
+.cardtext h5{
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: #524FF5;
+}
+.cardtext h2{
+    font-family: inter;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1B2129;
+    margin-top: 10px;
+}
+.amandapics img{
+    width: 100%;
+    height: 60%;
+}
+.amanda h4{
+    font-family: inter;
+    font-size: 25px ;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.star{
+    display: flex;
+}
+.starimage{
+    width: 20px;
+    height: 20px;
+}
+.starimage img{
+    width: 100%;
+    height: 100%;
+}
+.starrate h5{
+ width: 20px;
+ height: 20px;
+ font-size: 20px;
+ font-weight: 400;
+ font-family: inter;
+ color: #FFFFFF;
+}
+.amanda{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.amanline{
+    border-bottom: 1px solid #49505A;
+    width: 240px;
+    margin-left: 45px;
+    padding-top: 20px;
+}
+.specialist h3{
+    font-family:lato;
+    font-weight: 700;
+    font-size:20px ;
+    color: #FFFFFF;
+}
+
+.specialist p{
+    font-family:lato ;
+    font-weight: 500;
+    font-size:15px ;
+    margin-top: 10px;
+    color: #858585;
+}
+.specialist{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.black{
+    background-color: #1B2129;
+    height: 30%;
+}
+.blackicon{
+    margin-top: 30px;
+    margin-left: 45px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap: 15px;
+}
+.blackicon img{
+    width: 100%;
+    height: 100%;
+}
+.divide{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.teamimage{
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    padding-top: 420px;
+    animation: move-rtl 9000ms linear infinite;
+}
+.teamimage img{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    margin-bottom: 250px;
+}
