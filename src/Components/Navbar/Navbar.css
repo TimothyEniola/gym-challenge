@@ -29,11 +29,16 @@
 .nav-links{
     display: flex;
     list-style: none;
+    text-decoration: none;
     cursor: pointer;
     font-family: inter;
     font-size: 20px;
     gap: 20px;
     color: #1D2229;
+    text-decoration: none;
+}
+ .hom link li{
+    text-decoration: none;
 }
 .nav-links :hover{
     color: #A1F65E;

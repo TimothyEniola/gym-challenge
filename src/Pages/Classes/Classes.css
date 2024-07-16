@@ -1,0 +1,163 @@
+.bgm{
+    background-image: url(../../assets/bgm.png);
+    width: 95.5%;
+    height: 25rem;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+.bgm h2{
+    text-align: center;
+    padding-top: 170px;
+    color: #ffffff;
+    font-family: inter;
+    font-size: 50px;
+    font-weight: 500px;
+}
+.yogaimg{
+    width: 600px;
+    height: 500px;
+}
+.yogaimg img{
+    width: 100%;
+    height: 100%;
+}
+.yoga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 60px;
+}
+.yogalist{
+    background-color: #F9F9F9;
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+}
+.yogalist h5{
+    font-family: lato;
+    font-size: 25px;
+    font-weight: 500px;
+    color: #1C2129;
+    padding-bottom: 20px;
+}
+.yogalist p{
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #6A6A6A;
+    padding-bottom: 20px;
+}
+.yogalist button{
+    width: 200px;
+    height: 50px;
+    background-color: #1D2229;
+    border: none;
+    color: #ffffff;
+    font-family: lato;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.yogalist button:hover{
+    background-color: #524FF5;
+}
+.yogalist span{
+    color: #1D2229;
+    font-weight: 700;
+}
+.yogat{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.fat{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fat h6{
+font-family: lato;
+font-size:20px ;
+font-weight: 500;
+color: #524FF5;
+}
+.fat button{
+font-family: lato;
+font-size:20px ;
+font-weight: 500;
+border: none;
+color: #1B2129;
+width: 100px;
+height: 30px;
+}
+.fat button:hover{
+    background-color: #524FF5;
+    color: #ffffff;
+}
+.yogat h2{
+font-family: inter;
+font-size:37px ;
+margin-bottom: 30px;
+font-weight: 700;
+color: #1B2129;
+}
+.yogat p{ 
+font-family: lato;
+font-size:13px ;
+font-weight: 500;
+color: #6A6A6A;
+line-height: 20px;
+}
+.yogat ul{
+font-family: lato;
+font-size:20px ;
+font-weight: 500;
+color: #6A6A6A;
+line-height: 40px;
+margin-left: 20px;
+margin-top: 30px;
+}
+.healthy{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.healthy h2{
+    font-family: inter;
+    font-size:25px ;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #1B2129;
+}
+
+.healthy p{ 
+    font-family: lato;
+    font-size:13px;
+    font-weight: 500;
+    color: #6A6A6A;
+    line-height: 20px;
+ }
+ 
+.healthy ol{
+    font-family: lato;
+    font-size:15px ;
+    font-weight: 500;
+    color: #6A6A6A;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.viimg{
+    width: 68rem;
+    height: 30rem;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 130px; 
+}
+ .viimg img{
+    width: 100%;
+    height: 100%;
+ }

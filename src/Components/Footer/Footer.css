@@ -16,3 +16,147 @@
 .footerimg span{
     border-bottom: 1px solid #FFFFFF;
 }
+.logom{
+    width: 300px;
+    height: 50px;
+    
+}
+.logom img{
+    width: 100%;
+    height: 100%;
+}
+.logp p{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 20px;
+    color: #BCBCBC;
+
+}
+.readable{
+    margin-top: 20px;
+}
+.calltext h6{
+ font-family:lato ;
+ font-size: 18px;
+ font-weight: 900;
+ color: #A1F65E;
+}
+
+.mall h6{
+    font-family:lato ;
+    font-size: 18px;
+    font-weight: 900;
+    color: #A1F65E;
+    padding-top: 20px;
+   }
+   .calltext p{
+    font-family:lato ;
+    font-size: 18px;
+    font-weight: 500;
+    color: #BCBCBC;
+    line-height: 30px;
+   }
+   .call{
+    background-color: #242A32;
+    width: 300px;
+    margin-top: 50px;
+    padding: 50px;
+   }
+   .mall p{
+    font-family:lato ;
+    font-size: 18px;
+    font-weight: 500;
+    color: #BCBCBC;
+   }
+   .utility h5{
+    font-family: inter;
+    font-size:25px ;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+   }
+   .utility li{
+    list-style: none;
+    color: #BCBCBC;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+   }
+   
+   .sear h5{
+    font-family: inter;
+    font-size:25px ;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+   }
+   .enter input{
+   width: 250px;
+   height: 50px;
+   background-color: #242A32;
+   border: none;
+   padding-left: 30px;
+   margin-top: 20px;
+   font-family: lato;
+   font-weight: 400;
+   font-size: 15px;
+   color: #BCBCBC;
+   }
+   .sear button{
+    width: 120px;
+    height: 40px;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #A1F65E;
+    border: none;
+    color: #2F2F2F;
+    margin-top: 25px;
+   }
+   .socmedia{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+   }
+   .socmedia img{
+    width: 100%;
+    height: 100%;
+   }
+
+   .aroup{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    cursor: pointer;
+   }
+ 
+   .aroup img{
+    width: 100%;
+    height: 100%;
+   }
+   .footerm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: #1C2229;
+    width: 95%;
+    margin-left: 31px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+   }
+.whitebg{
+    text-align: center;
+    padding: 30px;
+    font-family: lato;
+    font-size: 17px;
+    font-weight: 500;
+    color: #BCBCBC;
+}
+.whitebg span{
+color: #524FF5;
+}

@@ -82,6 +82,7 @@
     
     .pat-text{
         display: flex;
+        flex-wrap: wrap;
         position: relative;
         justify-content: center;
         padding-top: 3rem;
@@ -282,6 +283,7 @@ margin-top: 105px;
 }
 .depart{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 gap: 170px;
 position: relative;
@@ -418,6 +420,7 @@ padding-top: 12px;
 .base{
     /* background-color: #524FF5; */
     display: flex;
+    flex-wrap: wrap;
     padding-top: 100px;
     justify-content: center;
     gap: 100px;

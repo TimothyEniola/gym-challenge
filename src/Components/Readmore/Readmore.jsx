@@ -5,6 +5,7 @@ import image6 from "../../assets/Image (6).png";
 import image7 from "../../assets/Image (7).png";
 const Readmore = () => {
   return (
+       
     <div className="readmore">
       <div className="cards">
         <input id="ch" type="checkbox" />

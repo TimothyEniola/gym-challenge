@@ -1,7 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "../../assets/Logo.svg";
+import Logom from "../../assets/Logo (4).png";
+import faceb from "../../assets/Fb.png";
+import insta from "../../assets/Insta.png";
+import twitter from "../../assets/Twiter.png";
+import arrow from "../../assets/Up Arrow.png";
 const Footer = () => {
+  const top = () =>{window.scrollTo(0,0)}
   return (
     <div className="footer">
       <div className="footerimg">
@@ -12,9 +17,9 @@ const Footer = () => {
       <div className="footerm">
         <div className="logp">
           <div className="logos">
-            <img src={Logo} alt="logo" />
+            <img src={Logom} alt="logo" />
           </div>
-          <p>
+          <p className="readable">
             It is a long established fact that a reader will <br /> be
             distracted by the readable.
           </p>
@@ -27,7 +32,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="mall">
-              <h6>Mall:</h6>
+              <h6>Mail:</h6>
               <p>contact@fitnessfit.com</p>
             </div>
           </div>
@@ -44,13 +49,30 @@ const Footer = () => {
           </div>
         </div>
         <div className="sear">
-          <h6>Newsletter</h6>
-          <input type="mail" placeholder="Enter Your Email" />
+          <h5>Newsletter</h5>
+          <div className="enter">
+            <input type="search" placeholder="Enter Your Email" />
+          </div>
           <button>Subscribe</button>
-          <div className="socmedia">
-            
+          <div className="arrow">
+            <div className="socmedia">
+              <img src={faceb} alt="" />
+              <img src={insta} alt="" />
+              <img src={twitter} alt="" />
+            </div>
+
+            <div className="aroup">
+              <img src={arrow} alt="" onClick={top}/>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="whitebg">
+        <p>
+          {" "}
+          Copyright © <span>FitnessFit</span> | Designed byVictorFlow Templates
+          - Powered by Webflow{" "}
+        </p>
       </div>
     </div>
   );
