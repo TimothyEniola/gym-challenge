@@ -1,0 +1,240 @@
+.maddi{
+    background-image: url(../../assets/bgm.png);
+    text-align: center;
+    width: 95.9%;
+    height: 25rem;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.maddi h2{
+    font-family:inter ;
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-top: 150px;
+}
+.madditext{
+    width: 300px;
+    margin-top: 10px;
+}
+.maddisite img{
+    width: 100%;
+}
+.maddisite h3{
+    font-family:inter ;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B2129;
+    margin-top: 20px;
+}
+
+
+.maddisite h6{
+    font-family:inter ;
+    font-size: 15px;
+    font-weight: 600;
+    color:#524FF5 ;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.maddip p{
+    font-family:lato ;
+    font-size: 15px;
+    font-weight: 600;
+    color:#6A6A6A;
+    line-height: 30px;
+}
+.maddip span{
+    color: #1B2129;
+    font-weight: 800;
+}
+.maddipimg{
+    width: 30px;
+    height: 30px;
+    gap: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+.maddipimg img{
+    width: 100%;
+    height: 100%;
+}
+.seper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+.heatl h2{
+    font-family: inter;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1B2129;
+}
+
+.heatl p{
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6A6A6A;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.heath{
+margin-top: 30px;
+}
+.heath h3{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1B2129;
+    margin-bottom: 10px;
+}
+.heath p{ 
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 500;
+    color:#6A6A6A;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.heath ul{
+    margin-left: 26px;
+    line-height: 30px;
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 500;
+    color:#6A6A6A;
+}
+.impro{
+    margin-top: 30px;
+}
+.impro h3{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1B2129;
+    margin-bottom: 10px;
+}
+
+.heath ol{
+    margin-left: 26px;
+    line-height: 30px;
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 500;
+    color:#6A6A6A;
+}
+.dash p{
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 500;
+    color:#6A6A6A;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.pressp{
+    background-image: url(../../assets/bbbb.png);
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 200px;
+}
+.pressp h4{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.pop{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: lato;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.ppa{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.ppa span{
+text-decoration: underline;
+}
+.formv{
+    width: 500px;
+}
+
+.formv ::placeholder{
+    color: #FFFFFF;
+}
+.fullemail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.fullname input{
+    width: 230px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+}
+
+.emaild input{
+    width: 230px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+}
+
+.subje input{
+    width: 480px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.messa textarea{
+    width: 480px;
+    height: 130px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size:lato ;
+    font-weight: 500;
+    font-size: 15px;
+}
+.meem{
+    margin-bottom: 150px;
+}
+.formbtn button{
+width: 200px;
+height: 50px;
+color: #2F2F2F;
+background-color: #A1F65E;
+border: none;
+font-family: lato;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+margin-top: 25px;
+}
+.formbtn button:hover{
+    background-color: #524FF5;
+    color: #FFFFFF;
+}

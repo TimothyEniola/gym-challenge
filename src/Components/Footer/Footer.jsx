@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import Logom from "../../assets/Logo (4).png";
 import faceb from "../../assets/Fb.png";
@@ -6,7 +6,26 @@ import insta from "../../assets/Insta.png";
 import twitter from "../../assets/Twiter.png";
 import arrow from "../../assets/Up Arrow.png";
 const Footer = () => {
-  const top = () =>{window.scrollTo(0,0)}
+  const [data, setData] = useState('')
+  const [error, setError] = useState()
+  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+  const handleChange = (e) => {
+    setData(e.target.value)
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (data === '') {
+      setError("Email can't be empty")
+    } else if (!emailRegex.test(data)) {
+      setError("Enter a valid email")
+    } else {
+      alert('Subscribed')
+    }
+  }
+  const top = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="footer">
       <div className="footerimg">
@@ -50,10 +69,13 @@ const Footer = () => {
         </div>
         <div className="sear">
           <h5>Newsletter</h5>
-          <div className="enter">
-            <input type="search" placeholder="Enter Your Email" />
-          </div>
-          <button>Subscribe</button>
+          <form onSubmit={handleSubmit}> 
+            <div className="enter">
+              <input type="text" placeholder="Enter Your Email" value={data} onChange={handleChange}/>
+              {error && <p>{error}</p>}
+            </div>
+            <button>Subscribe</button>
+          </form>
           <div className="arrow">
             <div className="socmedia">
               <img src={faceb} alt="" />
@@ -62,7 +84,7 @@ const Footer = () => {
             </div>
 
             <div className="aroup">
-              <img src={arrow} alt="" onClick={top}/>
+              <img src={arrow} alt="" onClick={top} />
             </div>
           </div>
         </div>

@@ -113,6 +113,11 @@
     border: none;
     color: #2F2F2F;
     margin-top: 25px;
+    cursor: pointer;
+   }
+   .sear button:hover{
+    background-color:#524FF5;
+    color: #FFFFFF;
    }
    .socmedia{
     width: 20px;

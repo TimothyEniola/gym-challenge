@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate()
-  const handleLogin = () =>{navigate('/Homepage')}
+  // const handleLogin = () =>{navigate('/Homepage')}
   return (
     <div className="seperate">
       <div className="logo">
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to='classes' style={{textDecoration: 'none', color:'#1D2229'}}><li>Classes</li></Link>
           <li>Trainers</li>
           <li>News</li>
-          <li>Contact</li>
+          <Link to='Contact' style={{textDecoration: 'none', color:'#1D2229'}}><li>Contact</li></Link>
           <button>Book Class</button>
         </ul>
       </nav>
