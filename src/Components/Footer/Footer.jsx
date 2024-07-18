@@ -6,23 +6,23 @@ import insta from "../../assets/Insta.png";
 import twitter from "../../assets/Twiter.png";
 import arrow from "../../assets/Up Arrow.png";
 const Footer = () => {
-  const [data, setData] = useState('')
-  const [error, setError] = useState()
-  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+  const [data, setData] = useState("");
+  const [error, setError] = useState();
+  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
   const handleChange = (e) => {
-    setData(e.target.value)
-  }
+    setData(e.target.value);
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    if (data === '') {
-      setError("Email can't be empty")
+    e.preventDefault();
+    if (data === "") {
+      setError("Email can't be empty");
     } else if (!emailRegex.test(data)) {
-      setError("Enter a valid email")
+      setError("Enter a valid email");
     } else {
-      alert('Subscribed')
+      alert("Subscribed");
     }
-  }
+  };
   const top = () => {
     window.scrollTo(0, 0);
   };
@@ -69,18 +69,23 @@ const Footer = () => {
         </div>
         <div className="sear">
           <h5>Newsletter</h5>
-          <form onSubmit={handleSubmit}> 
+          <form onSubmit={handleSubmit}>
             <div className="enter">
-              <input type="text" placeholder="Enter Your Email" value={data} onChange={handleChange}/>
-              {error && <p>{error}</p>}
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                value={data}
+                onChange={handleChange}
+              />
+              {error && <p  style={{color: "red"}}>{error}</p>}
             </div>
             <button>Subscribe</button>
           </form>
           <div className="arrow">
             <div className="socmedia">
-              <img src={faceb} alt="" />
-              <img src={insta} alt="" />
-              <img src={twitter} alt="" />
+              <a href="https://www.facebook.com/login"><img src={faceb} alt="" /></a>
+             <a href="https://www.instagram.com/"> <img src={insta} alt="" /></a>
+             <a href="https://x.com/twitt_login?lang=en"> <img src={twitter} alt="" /></a>
             </div>
 
             <div className="aroup">

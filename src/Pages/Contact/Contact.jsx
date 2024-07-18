@@ -131,6 +131,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="formv">
+            <form action="">
           <div className="fullemail">
             <div className="fullname">
               <input type="text" placeholder="Your FULL name" />
@@ -148,12 +149,13 @@ const Contact = () => {
           <div className="formbtn">
             <button>Start Now</button>
           </div>
+          </form>
         </div>
       </div>
       <div className="meem">
-      <Readmore/>
+        <Readmore />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

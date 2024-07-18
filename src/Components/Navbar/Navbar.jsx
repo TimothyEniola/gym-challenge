@@ -16,10 +16,10 @@ const Navbar = () => {
         <ul className="nav-links">
         <Link to='/' style={{textDecoration: 'none', color:'#1D2229'}}><li>Home</li></Link>
           <li>About</li>
-          <Link to='classes' style={{textDecoration: 'none', color:'#1D2229'}}><li>Classes</li></Link>
+          <Link to='/classes' style={{textDecoration: 'none', color:'#1D2229'}}><li>Classes</li></Link>
           <li>Trainers</li>
           <li>News</li>
-          <Link to='Contact' style={{textDecoration: 'none', color:'#1D2229'}}><li>Contact</li></Link>
+          <Link to='/contact' style={{textDecoration: 'none', color:'#1D2229'}}><li>Contact</li></Link>
           <button>Book Class</button>
         </ul>
       </nav>
