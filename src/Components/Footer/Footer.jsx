@@ -5,6 +5,7 @@ import faceb from "../../assets/Fb.png";
 import insta from "../../assets/Insta.png";
 import twitter from "../../assets/Twiter.png";
 import arrow from "../../assets/Up Arrow.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const [data, setData] = useState("");
   const [error, setError] = useState();
@@ -64,7 +65,8 @@ const Footer = () => {
             <li>404 Page</li>
             <li>Password Protected</li>
             <li>Licenses</li>
-            <li>Contact</li>
+            {/* <li>Contact</li> */}
+            <Link to='/contact' style={{textDecoration: 'none', color:'#1D2229'}}><li>Contact</li></Link>
           </div>
         </div>
         <div className="sear">

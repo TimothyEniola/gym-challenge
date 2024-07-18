@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="seperate">
       <div className="logo">
-        <img src={Logo} alt="logo" />
+      <Link to='/' style={{textDecoration: 'none', color:'#1D2229'}}> <img src={Logo} alt="logo" /></Link>
       </div>
 
       <nav className="navbar">

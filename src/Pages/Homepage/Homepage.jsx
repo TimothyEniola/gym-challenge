@@ -28,6 +28,7 @@ import group37 from "../../assets/Group 37 (3).png";
 import group38 from "../../assets/Group 38.png";
 import blog from "../../assets/Blog.png";
 import Footer from "../../Components/Footer/Footer";
+import { Link } from "react-router-dom";
 const Homepage = () => {
   return (
     <div>
@@ -58,7 +59,11 @@ const Homepage = () => {
             <h5>OUR FITNESS TRAINING</h5>
             <h2>Upcoming Classes</h2>
           </div>
-          <button>More Class</button>
+          <Link
+            to="/classes"
+            style={{ textDecoration: "none", color: "#1D2229" }}>
+            <button>More Class</button>
+          </Link>
         </div>
       </div>
       <Readmore />
